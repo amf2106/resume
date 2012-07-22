@@ -1,0 +1,60 @@
+h1, .center
+{
+text-align:center;
+}
+h3, h4
+{
+background-color:#DDD9C3;
+text-align:center;
+
+clear:both;
+}
+#leftskills
+{
+
+border-width:thin;
+
+float:left;
+border-style:none solid none none;
+
+text-align:justify;
+
+padding-right:20px;
+
+width:49%;
+}
+#rightskills
+{
+
+float:left;
+
+padding-left:20px;
+
+width:40%;
+}
+
+#workcompanies
+{
+
+float:left;
+
+width:75%;
+}
+#workyears
+{
+
+float:left;
+
+text-align:right;
+
+width:25%;
+}
+body 
+{
+font-family: "Arial Narrow",sans-serif;
+border-style: solid;
+
+border-width:thin;
+padding:25px;
+margin:25px;
+}
