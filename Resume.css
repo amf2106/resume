@@ -1,60 +1,82 @@
-h1, .center
-{
-text-align:center;
+body {
+  font-family: "Arial Narrow",sans-serif;
+  border-style: solid;
+  border-width:thin;
+  padding:25px;
+  margin:25px;
 }
-h3, h4
-{
-background-color:#DDD9C3;
-text-align:center;
-
-clear:both;
+header {
+  text-align:center;
 }
-#leftskills
-{
-
-border-width:thin;
-
-float:left;
-border-style:none solid none none;
-
-text-align:justify;
-
-padding-right:20px;
-
-width:49%;
+h2, h3 {
+  background-color:#DDD9C3;
+  text-align:center;
+  clear:both;
 }
-#rightskills
-{
-
-float:left;
-
-padding-left:20px;
-
-width:40%;
+h4 {
+  margin-top: 0px;
+  margin-bottom: 0px;
+  padding-top: 0px;
+  padding-bottom: 0px;
+  text-align: center;
 }
-
-#workcompanies
-{
-
-float:left;
-
-width:75%;
+#description {
+  float: left;
+  text-align: justify;
+  padding: 15px;
+  padding-top: 0px;
+  width: 47%;
 }
-#workyears
-{
-
-float:left;
-
-text-align:right;
-
-width:25%;
+#skills-list {
+  float:left;
+  padding-left:20px;
+  width:40%;
+  border-width: thin;
+  border-style: none none none solid;
+  margin-bottom: 15px;
 }
-body 
-{
-font-family: "Arial Narrow",sans-serif;
-border-style: solid;
-
-border-width:thin;
-padding:25px;
-margin:25px;
+/* deprecated
+#workcompanies {
+  float:left;
+  width:75%;
+}
+#workyears {
+  float:left;
+  text-align:right;
+  width:25%;
+} */
+#technical-expertise-headline, #added-value-headline, #technical-expertise-paragraph {
+  margin: 0px;
+  margin-top: 15px;
+  text-align: left;
+  padding: 0px;
+}
+#technical-skills, #values-added {
+  list-style-type: none;
+  margin: 0px;
+  padding: 0px;
+}
+#technical-expertise-paragraph {
+  margin: 0px;
+}
+#career-progression {
+  margin-bottom: 0px;
+  padding-bottom: 0px;
+}
+#job-titles {
+  margin-top: 0px;
+  padding-top: 0px;
+}
+#strategic-financial-solutions {
+  text-align: left;
+}
+.company-location {
+  font-weight: normal;
+}
+/* deprecated
+.company-name {
+  text-align: left;
+} */
+.years, .college-location {
+  font-weight: normal;
 }
